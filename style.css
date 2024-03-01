@@ -1,0 +1,64 @@
+body {
+      font-family: "Lato", sans-serif;
+      width: 80vw;
+      margin: 0 auto;
+      background-color: black;
+    }
+
+    img {
+      margin-bottom: -40px;
+      margin-top: 10px;
+    }
+
+    .tablink {
+      background-color: #555;
+      color: white;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      font-size: 17px;
+      width: 6.25%;
+    }
+
+    .tablink:hover {
+      background-color: #777;
+    }
+
+    /* Style the tab content */
+    .tabcontent {
+      color: white;
+      display: none;
+      padding: 50px;
+      text-align: center;
+      /* height: 500px; */
+    }
+
+    h1 {
+      margin-top: -10px;
+    }
+
+    p {
+      margin-left: 200px;
+      margin-right: 200px;
+      font-size: 16px;
+      text-align: center;
+      line-height: 1.5;
+    }
+
+    div[id*="NT"] {
+      background-color: red;
+    }
+
+    div[id*="NF"] {
+      background-color: green;
+    }
+
+    div[id*="S"][id*="J"] {
+      background-color: blue;
+    }
+
+    div[id*="S"][id*="P"] {
+      background-color: orange;
+    }

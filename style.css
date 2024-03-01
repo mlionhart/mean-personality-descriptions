@@ -73,7 +73,8 @@ body {
 
     @media (max-width: 1200px) {
       p {
-        margin: 0;
+        margin-left: 0;
+        margin-right: 0;
       }
 
       .tablink {
@@ -92,5 +93,9 @@ body {
     @media (max-width: 600px) {
       img {
         width: 70%;
+      }
+
+      div first-of-type:p {
+        margin-bottom: 10px;
       }
     }

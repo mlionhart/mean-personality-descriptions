@@ -2,7 +2,15 @@ body {
       font-family: "Lato", sans-serif;
       width: 80vw;
       margin: 0 auto;
-      background-color: black;
+      /* background-color: black; */
+    }
+
+    .first-h1 {
+      color: white;
+      text-align: center;
+      background-color: #3f3f3f;
+      padding: 20px;
+      margin: 0;
     }
 
     img {
@@ -11,7 +19,7 @@ body {
     }
 
     .tablink {
-      background-color: #555;
+      background-color: #3f3f3f;
       color: white;
       float: left;
       border: none;
@@ -61,4 +69,28 @@ body {
 
     div[id*="S"][id*="P"] {
       background-color: orange;
+    }
+
+    @media (max-width: 1200px) {
+      p {
+        margin: 0;
+      }
+
+      .tablink {
+        font-size: .7rem;
+        padding: 10px;
+      }
+    }
+
+    @media (max-width: 800px) {
+      .tablink {
+        width: 100%;
+        float: none;
+      }
+    }
+
+    @media (max-width: 600px) {
+      img {
+        width: 50%;
+      }
     }
